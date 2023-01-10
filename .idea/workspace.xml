@@ -4,26 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef342cc8-944e-4d9d-b0a4-44d7dafdad91" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javatest/player/Dice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javatest/player/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javatest/util/PasswordUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javatest/util/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/javatest/player/PlayerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/javatest/util/PasswordUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/javatest/util/StringUtilTest.java" afterDir="false" />
+    <list default="true" id="ef342cc8-944e-4d9d-b0a4-44d7dafdad91" name="Changes" comment="Clase 14 curso de testing: TDD">
+      <change afterPath="$PROJECT_DIR$/src/main/java/javatest/payments/PaymentGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javatest/payments/PaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javatest/payments/PaymentsRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javatest/payments/PaymentsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javatest/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javatest/util/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javatest/util/RomanNumerals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/javatest/discounts/PriceCalculatorShould.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/javatest/payments/PaymentProcessorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/javatest/util/DateUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javatest/discounts/PriceCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javatest/discounts/PriceCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javatest/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javatest/util/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/javatest/util/StringUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/javatest/util/StringUtilTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -77,12 +72,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="javatest.player" />
+      <recent name="javatest.discounts" />
       <recent name="javatest.util" />
+      <recent name="javatest.payments" />
+      <recent name="javatest.player" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PlayerTest">
-    <configuration name="PasswordUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PriceCalculatorShould">
+    <configuration name="DateUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PlatziTestingCourse" />
       <extension name="coverage">
         <pattern>
@@ -91,24 +88,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="javatest.util" />
-      <option name="MAIN_CLASS_NAME" value="javatest.util.PasswordUtilTest" />
+      <option name="MAIN_CLASS_NAME" value="javatest.util.DateUtilTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordUtilTest.weak_when_less_than_8_caracters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PlatziTestingCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javatest.util.*" />
+          <option name="PATTERN" value="javatest.payments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javatest.util" />
-      <option name="MAIN_CLASS_NAME" value="javatest.util.PasswordUtilTest" />
-      <option name="METHOD_NAME" value="weak_when_less_than_8_caracters" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="javatest.payments" />
+      <option name="MAIN_CLASS_NAME" value="javatest.payments.PaymentProcessorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,45 +124,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest.player_looses_when_dice_is_too_low" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PriceCalculatorShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PlatziTestingCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javatest.player.*" />
+          <option name="PATTERN" value="javatest.discounts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javatest.player" />
-      <option name="MAIN_CLASS_NAME" value="javatest.player.PlayerTest" />
-      <option name="METHOD_NAME" value="player_looses_when_dice_is_too_low" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="javatest.discounts" />
+      <option name="MAIN_CLASS_NAME" value="javatest.discounts.PriceCalculatorShould" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest.player_wins_when_dice_is_over_min" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PlatziTestingCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javatest.player.*" />
+          <option name="PATTERN" value="javatest.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javatest.player" />
-      <option name="MAIN_CLASS_NAME" value="javatest.player.PlayerTest" />
-      <option name="METHOD_NAME" value="player_wins_when_dice_is_over_min" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="javatest.util" />
+      <option name="MAIN_CLASS_NAME" value="javatest.util.StringUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PriceCalculatorShould" />
+        <item itemvalue="JUnit.DateUtilTest" />
+        <item itemvalue="JUnit.StringUtilTest" />
+        <item itemvalue="JUnit.PaymentProcessorTest" />
         <item itemvalue="JUnit.PlayerTest" />
-        <item itemvalue="JUnit.PlayerTest.player_wins_when_dice_is_over_min" />
-        <item itemvalue="JUnit.PlayerTest.player_looses_when_dice_is_too_low" />
-        <item itemvalue="JUnit.PasswordUtilTest" />
-        <item itemvalue="JUnit.PasswordUtilTest.weak_when_less_than_8_caracters" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +173,37 @@
       <option name="presentableId" value="Default" />
       <updated>1672493764113</updated>
     </task>
+    <task id="LOCAL-00001" summary="Clase 8">
+      <created>1673378976222</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673378976222</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Clase 14 curso de testing: TDD">
+      <created>1673383080799</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673383080799</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Clase 8" />
+    <MESSAGE value="Clase 14 curso de testing: TDD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase 14 curso de testing: TDD" />
   </component>
 </project>
