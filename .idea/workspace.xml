@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef342cc8-944e-4d9d-b0a4-44d7dafdad91" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javatest/player/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javatest/player/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javatest/util/PasswordUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javatest/util/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/javatest/player/PlayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/javatest/util/PasswordUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/javatest/util/StringUtilTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2JgJOUjAlAP9foyyxxtn46rkumq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="javatest.player" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="javatest.player" />
+      <recent name="javatest.util" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PlayerTest">
+    <configuration name="PasswordUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlatziTestingCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javatest.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javatest.util" />
+      <option name="MAIN_CLASS_NAME" value="javatest.util.PasswordUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordUtilTest.weak_when_less_than_8_caracters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlatziTestingCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javatest.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javatest.util" />
+      <option name="MAIN_CLASS_NAME" value="javatest.util.PasswordUtilTest" />
+      <option name="METHOD_NAME" value="weak_when_less_than_8_caracters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlatziTestingCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javatest.player.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javatest.player" />
+      <option name="MAIN_CLASS_NAME" value="javatest.player.PlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.player_looses_when_dice_is_too_low" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlatziTestingCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javatest.player.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javatest.player" />
+      <option name="MAIN_CLASS_NAME" value="javatest.player.PlayerTest" />
+      <option name="METHOD_NAME" value="player_looses_when_dice_is_too_low" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.player_wins_when_dice_is_over_min" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlatziTestingCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javatest.player.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javatest.player" />
+      <option name="MAIN_CLASS_NAME" value="javatest.player.PlayerTest" />
+      <option name="METHOD_NAME" value="player_wins_when_dice_is_over_min" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PlayerTest" />
+        <item itemvalue="JUnit.PlayerTest.player_wins_when_dice_is_over_min" />
+        <item itemvalue="JUnit.PlayerTest.player_looses_when_dice_is_too_low" />
+        <item itemvalue="JUnit.PasswordUtilTest" />
+        <item itemvalue="JUnit.PasswordUtilTest.weak_when_less_than_8_caracters" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef342cc8-944e-4d9d-b0a4-44d7dafdad91" name="Changes" comment="" />
+      <created>1672493764113</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672493764113</updated>
+    </task>
+    <servers />
+  </component>
+</project>
