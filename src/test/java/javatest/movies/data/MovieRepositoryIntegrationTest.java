@@ -2,11 +2,10 @@ package javatest.movies.data;
 
 import javatest.movies.model.Genre;
 import javatest.movies.model.Movie;
+import javatest.movies.service.MovieService;
 import org.junit.After;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
-import org.springframework.core.annotation.Order;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
@@ -18,6 +17,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.List;
+import java.util.stream.Collectors;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;
@@ -84,5 +85,9 @@ public class MovieRepositoryIntegrationTest {
     public void tearDown() throws Exception {
         final Statement s = dataSource.getConnection().createStatement();
         s.execute("drop all objects delete files");
+    }
+
+    private List<Integer> getMovieIds(Collection<Movie> movies) {
+        return movies.stream().map(Movie::getId).collect(Collectors.toList());
     }
 }

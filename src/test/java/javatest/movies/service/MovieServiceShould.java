@@ -9,7 +9,10 @@ import org.mockito.Mockito;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.List;
+import java.util.stream.Collectors;
 
+import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;
 
 public class MovieServiceShould {
@@ -54,4 +57,39 @@ public class MovieServiceShould {
         }
     }
 
+    @Test
+    public void return_movies_by_genre_and_length() {
+        String name = null; // no queremos buscar por nombre
+        Integer minutes = 150; // 2h 30m
+        Genre genre = Genre.ACTION;
+        Movie template = new Movie(name, minutes, genre);
+        Collection<Movie> movies =
+                movieService.findMoviesByTemplate(template);
+        assertThat(getMovieIds(movies), is(Arrays.asList(7)) );
+    }
+
+    @Test
+    public void return_movies_by_length_and_name() {
+        String name = "ME";
+        Integer minutes = 115;
+        Movie template = new Movie(name, minutes, null);
+        Collection<Movie> movies =
+                movieService.findMoviesByTemplate(template);
+        assertThat(getMovieIds(movies), is(Arrays.asList(2, 6)) );
+    }
+
+    @Test
+    public void return_just_the_id_movie() {
+        Integer id = 3;
+        String name = "ME";
+        Integer minutes = 115;
+        Movie template = new Movie(id, name, minutes, null);
+        Collection<Movie> movies =
+                movieService.findMoviesByTemplate(template);
+        assertThat(getMovieIds(movies), is(Arrays.asList(3)) );
+    }
+
+    private List<Integer> getMovieIds(Collection<Movie> movies) {
+        return movies.stream().map(Movie::getId).collect(Collectors.toList());
+    }
 }
