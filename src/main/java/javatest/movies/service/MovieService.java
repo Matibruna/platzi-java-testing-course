@@ -6,6 +6,7 @@ import javatest.movies.model.Movie;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.stream.Collectors;
 
 public class MovieService {
 
@@ -29,4 +30,7 @@ public class MovieService {
     }
 
 
+    public Collection<Movie> findMoviesByDuration(int duration) {
+        return movieRepository.findAll().stream().filter(movie -> movie.getMinutes() <= duration).collect(Collectors.toList());
+    }
 }

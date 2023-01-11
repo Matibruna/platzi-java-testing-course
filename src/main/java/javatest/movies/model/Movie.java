@@ -10,6 +10,16 @@ public class Movie {
         this(null, name, minutes, genre);
     }
 
+    @Override
+    public String toString() {
+        return "Movie{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", minutes=" + minutes +
+                ", genre=" + genre +
+                '}';
+    }
+
     public Movie(Integer id, String name, int minutes, Genre genre) {
         this.id = id;
         this.name = name;
