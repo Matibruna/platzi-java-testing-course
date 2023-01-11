@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef342cc8-944e-4d9d-b0a4-44d7dafdad91" name="Changes" comment="Clase 15 Curso testing Java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javatest/util/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javatest/util/RomanNumerals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/javatest/util/FizzBuzzShould.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/javatest/util/RomanNumeralShould.java" afterDir="false" />
+    <list default="true" id="ef342cc8-944e-4d9d-b0a4-44d7dafdad91" name="Changes" comment="Reto 2: Practica de TDD y Clase 16">
+      <change afterPath="$PROJECT_DIR$/src/main/java/javatest/movies/data/MovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javatest/movies/model/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javatest/movies/model/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javatest/movies/service/MovieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/javatest/movies/service/MovieServiceShould.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
@@ -27,6 +29,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -71,28 +78,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="javatest.movies.service" />
       <recent name="javatest.util" />
       <recent name="javatest.discounts" />
       <recent name="javatest.payments" />
       <recent name="javatest.player" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RomanNumeralShould">
-    <configuration name="DateUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PlatziTestingCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javatest.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="javatest.util" />
-      <option name="MAIN_CLASS_NAME" value="javatest.util.DateUtilTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MovieServiceShould.return_movies_by_genre">
     <configuration name="FizzBuzzShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PlatziTestingCourse" />
       <extension name="coverage">
@@ -104,6 +97,22 @@
       <option name="PACKAGE_NAME" value="javatest.util" />
       <option name="MAIN_CLASS_NAME" value="javatest.util.FizzBuzzShould" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieServiceShould.return_movies_by_genre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlatziTestingCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javatest.movies.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javatest.movies.service" />
+      <option name="MAIN_CLASS_NAME" value="javatest.movies.service.MovieServiceShould" />
+      <option name="METHOD_NAME" value="return_movies_by_genre" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MovieServiceShould.return_movies_by_genre" />
         <item itemvalue="JUnit.RomanNumeralShould" />
         <item itemvalue="JUnit.RomanNumeralsShould" />
         <item itemvalue="JUnit.FizzBuzzShould" />
         <item itemvalue="JUnit.PriceCalculatorShould" />
-        <item itemvalue="JUnit.DateUtilTest" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673388648890</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Reto 2: Practica de TDD y Clase 16">
+      <created>1673404552387</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673404552387</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,6 +227,7 @@
     <MESSAGE value="Clase 8" />
     <MESSAGE value="Clase 14 curso de testing: TDD" />
     <MESSAGE value="Clase 15 Curso testing Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase 15 Curso testing Java" />
+    <MESSAGE value="Reto 2: Practica de TDD y Clase 16" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reto 2: Practica de TDD y Clase 16" />
   </component>
 </project>
