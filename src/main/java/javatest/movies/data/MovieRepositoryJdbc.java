@@ -19,7 +19,7 @@ public class MovieRepositoryJdbc implements MovieRepository {
 
     @Override
     public Movie findById(long id) {
-        return null;
+        return jdbcTemplate.queryForObject("select * from movies where id = "+id, movieMapper);
     }
 
     @Override
@@ -29,7 +29,12 @@ public class MovieRepositoryJdbc implements MovieRepository {
 
     @Override
     public void saveOrUpdate(Movie movie) {
+        jdbcTemplate.update("insert into movies (name, minutes, genre) values (?, ?, ?)", movie.getName(), movie.getMinutes(), movie.getGenre().toString());
+    }
 
+    @Override
+    public Collection<Movie> findByName(String searchStr) {
+        return jdbcTemplate.query("select * from movies m where m.name LIKE '%"+searchStr+"%'", movieMapper);
     }
 
     RowMapper<Movie> movieMapper= new RowMapper<Movie>() {
