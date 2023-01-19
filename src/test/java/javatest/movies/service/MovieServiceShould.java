@@ -22,7 +22,7 @@ public class MovieServiceShould {
 
     @Before
     public void setup(){
-         this.movieRepository = Mockito.mock(MovieRepository.class);
+        this.movieRepository = Mockito.mock(MovieRepository.class);
 
         Mockito.when(movieRepository.findAll()).thenReturn(
                 Arrays.asList(
